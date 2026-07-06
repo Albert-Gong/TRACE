@@ -1,0 +1,145 @@
+# ========================
+# OS and Editor Files
+# ========================
+.DS_Store
+**/.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.log
+*.bak
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.env
+.venv
+venv/
+ENV/
+env/
+*.ipynb_checkpoints
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+.mypy_cache/
+.cache/
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+profile_default/
+__pycache__/
+*.nbconvert.ipynb
+
+# ========================
+# C / C++
+# ========================
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+*.lo
+*.la
+*.sln
+*.vcxproj*
+Debug/
+Release/
+
+# ========================
+# Java / JVM
+# ========================
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+target/
+out/
+.gradle/
+build/
+.mvn/
+.settings/
+.classpath
+.project
+logs/
+
+# ========================
+# Node.js / JavaScript
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+.next/
+dist/
+.cache/
+.eslintcache
+coverage/
+
+# ========================
+# Rust
+# ========================
+/target/
+Cargo.lock
+
+# ========================
+# Go
+# ========================
+bin/
+*.exe
+*.test
+*.out
+
+# ========================
+# Data / Temporary
+# ========================
+*.csv
+*.tsv
+*.dat
+*.pkl
+*.db
+*.sqlite
+*.log
+*.tmp
+
+# ========================
+# Environment and Secrets
+# ========================
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.csr
+*.secret
+secrets.json
+
+# ========================
+# Other
+# ========================
+*.tar.gz
+*.zip
+*.7z
+*.rar
+__MACOSX/
